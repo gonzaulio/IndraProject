@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS prices;
+CREATE TABLE PRICES (
+id INT AUTO_INCREMENT PRIMARY KEY,
+brand_id INT NOT NULL,
+start_date TIMESTAMP,
+end_date TIMESTAMP,
+price_list INT NOT NULL,
+product_id INT NOT NULL,
+priority INT NOT NULL,
+price DOUBLE NOT NULL,
+currency CHAR(50) NOT NULL);
