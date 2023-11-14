@@ -25,7 +25,7 @@
 	Se debe importar la aplicación en el IDE que se esté utilizando y se ejecuta la carpeta src/main/java como Java Application.
 	
 ## 4 - Probar
-*Una vez la aplicación esté levantada en el puerto http://localhost:8080, se pueden realizar pruebas pasandole los parámetros definidos:*
+*Una vez la aplicación esté levantada en el puerto http://localhost:8080, se pueden realizar pruebas pasándole los parámetros definidos:*
 
 	brandId  
 	productId 
@@ -35,3 +35,6 @@
 
 	http://localhost:8080/api/prices?brandId=1&productId=35455&date=2020-06-14T16:00:00
 	http://localhost:8080/api/prices?brandId=1&productId=35455&date=2020-06-14T21:00:00
+	
+## 5- Tests
+*Se han definido los test necesarios y requeridos para probar la funcionalidad de la aplicación*
